@@ -23,3 +23,17 @@
 - You can assign a value to the declared variable using the = operator.
 
 - A variable can change its value during the program, by being assigned to a new value.
+
+### Data Types :
+
+- C++ supports many different types for your variables, based on their value.
+
+- The ```int``` type is used to store whole numbers (called **integers** in programming)
+
+- To store decimals (or floating point numbers), C++ provides the ```float``` and ```double``` data types.
+
+- To specify that the value is a ```float```, we need to use the letter **f** after it. ex:
+
+    float length = 5.31f;
+
+    - This tells C++ to use the value as a float, instead of double.
