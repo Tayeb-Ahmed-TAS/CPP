@@ -28,12 +28,24 @@
 
 - C++ supports many different types for your variables, based on their value.
 
-- The ```int``` type is used to store whole numbers (called **integers** in programming)
+- The `int` type is used to store whole numbers (called **integers** in programming)
 
-- To store decimals (or floating point numbers), C++ provides the ```float``` and ```double``` data types.
+- To store decimals (or floating point numbers), C++ provides the `float` and `double` data types.
 
-- To specify that the value is a ```float```, we need to use the letter **f** after it. ex:
+- To specify that the value is a `float`, we need to use the letter **f** after it. ex:
 
         float length = 5.31f;
 
-    - This tells C++ to use the value as a ```float```, instead of ```double```.
+  - This tells C++ to use the value as a `float`, instead of `double`.
+
+- The `char` type is used to store a single character. It is similar to declaring a `string`, but uses single quotes ('') for the value.
+
+### Float vs Double :
+
+- By default, decimal values are of type `double`.
+
+- `float` uses less storage in the memory, but is not as precise as the `double` type.
+
+- This means that calculations that use floats are faster than the ones that use double, however, the results are less accurate in terms of the decimal digits.
+
+  - The best practice is to use `double`, if you do not have any specific requirements to use `float`.
