@@ -13,6 +13,10 @@ int main() {
 
   float c = 5.31f;
 
+  char t = 'S';
+
+  bool online = true;
+
   cout << "a = " << a << endl;
 
   cout << "name = " << name << endl;
@@ -20,6 +24,10 @@ int main() {
   cout << "b = " << b << endl;
 
   cout << "c = " << c << endl; // ? Output: c = 5.31
+
+  cout << "t = " << t << endl;
+
+  cout << "online = " << online << endl;
 
   getch();
 }

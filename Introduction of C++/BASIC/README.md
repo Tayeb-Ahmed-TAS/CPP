@@ -40,6 +40,10 @@
 
 - The `char` type is used to store a single character. It is similar to declaring a `string`, but uses single quotes ('') for the value.
 
+- The `bool` type can only hold values: either `true` or `false`. It is used when working with conditions.
+
+  - The boolean value `true` corresponds to **1**, while the value `false` corresponds to **0**.
+
 ### Float vs Double :
 
 - By default, decimal values are of type `double`.
