@@ -34,6 +34,6 @@
 
 - To specify that the value is a ```float```, we need to use the letter **f** after it. ex:
 
-    float length = 5.31f;
+        float length = 5.31f;
 
-    - This tells C++ to use the value as a float, instead of double.
+    - This tells C++ to use the value as a ```float```, instead of ```double```.
