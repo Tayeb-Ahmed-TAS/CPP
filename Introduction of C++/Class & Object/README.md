@@ -16,4 +16,6 @@
 
   - It is always public.
 
-  - It does not have any return value.
+  - It has no return type not even void.
+
+  - It is automatically called whenever an object is created.
