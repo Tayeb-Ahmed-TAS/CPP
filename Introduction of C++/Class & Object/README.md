@@ -14,6 +14,6 @@
 
   - The constructor has the same name as the class.
 
-  - It is always public
+  - It is always public.
 
   - It does not have any return value.
