@@ -31,11 +31,11 @@ int main() {
 
   students s1, s2;
 
-  s1.setValue("Taskin Tabassum Shorna", "CSE", 21824222026);
+  s1.setValue("Maria", "CSE", 218242220015);
 
   s1.display();
 
-  s2.setValue("Tayeb Ahmed Shamim", "CSE", 21824222009);
+  s2.setValue("John", "CSE", 218242220019);
 
   s2.display();
 

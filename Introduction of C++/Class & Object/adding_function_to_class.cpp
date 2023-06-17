@@ -26,9 +26,9 @@ int main() {
 
   students s1, s2;
 
-  s1.name = "Taskin Tabassum Shorna";
+  s1.name = "Maria";
 
-  s1.id = 21824222026;
+  s1.id = 218242220015;
 
   s1.dep = "CSE";
 
@@ -38,9 +38,9 @@ int main() {
 
   s1.display();
 
-  s2.name = "Tayeb Ahmed";
+  s2.name = "John";
 
-  s2.id = 21824222009;
+  s2.id = 218242220019;
 
   s2.dep = "CSE";
 
