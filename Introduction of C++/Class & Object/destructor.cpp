@@ -32,13 +32,13 @@ int main() {
 
   { // ? Block
 
-    cout << "Entering block" << endl;
+    cout << "Entering to Block" << endl;
 
     cout << "Creating two more objects obj1 and obj2" << endl;
 
     my_class obj2, obj3;
 
-    cout << "Exiting block" << endl;
+    cout << "Exiting from Block" << endl;
   }
 
   cout << "Back to main function" << endl;
