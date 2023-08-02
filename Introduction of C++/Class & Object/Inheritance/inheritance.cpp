@@ -34,7 +34,13 @@ class Programmer : public Employee {
 public:
   string language_name = "Python";
 
-  Programmer(int inpId) { id = inpId; }
+  Programmer(int inpId) {
+
+    id = inpId;
+
+    salary = 30.00;
+    
+  }
 };
 
 int main() {
