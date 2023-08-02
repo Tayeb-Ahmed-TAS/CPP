@@ -9,12 +9,12 @@
 
 Notes =>
 
-    - Default visibility mode is private.
+- Default visibility mode is private.
 
-    - Public Visibility Mode: Public members of the base class becomes Public members of the derived class.
+- Public Visibility Mode: Public members of the base class becomes Public members of the derived class.
 
-    - Private Visibility Mode: Public members of the base class becomes Private members of the derived class.
+- Private Visibility Mode: Public members of the base class becomes Private members of the derived class.
 
-    - Private members are never inherited.
+- Private members are never inherited.
 
-    - Protected members of the base class becomes Protected members of the derived class.
+- Protected members of the base class becomes Protected members of the derived class.
