@@ -6,4 +6,3 @@
             {
                 // body of derived class
             };
-
