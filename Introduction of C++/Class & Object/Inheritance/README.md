@@ -9,11 +9,13 @@
 
 ### Visibility Mode
 
-There are two types of visibility modes defined for the base class. They are:
+There are three types of visibility modes defined for the base class. They are:
 
 1. Public Visibility
 
 2. Private Visibility
+
+3. Protected Visibility
 
 Notes =>
 
