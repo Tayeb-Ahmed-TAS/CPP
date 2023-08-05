@@ -29,8 +29,8 @@ Notes =>
 
 ### Table of Inheritance =>
 
-| Sl  | ⤵️        | Public Derivation | Private Derivation | Protected Derivation |
-| --- | --------- | ----------------- | ------------------ | -------------------- |
-| 01  | Public    | Public            | Private            | Protected            |
-| 02  | Private   | Not Inherited     | Not Inherited      | Not Inherited        |
-| 03  | Protected | Protected         | Private            | Protected            |
+| Sl  | ⤵️                | Public Derivation | Private Derivation | Protected Derivation |
+| --- | ----------------- | ----------------- | ------------------ | -------------------- |
+| 01  | Public Members    | Public            | Private            | Protected            |
+| 02  | Private Members   | Not Inherited     | Not Inherited      | Not Inherited        |
+| 03  | Protected Members | Protected         | Private            | Protected            |
