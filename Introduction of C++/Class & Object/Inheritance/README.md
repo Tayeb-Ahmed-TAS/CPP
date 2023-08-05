@@ -7,13 +7,13 @@
                 // body of derived class
             };
 
- ### Visibility Mode
+### Visibility Mode
 
-  There are two types of visibility modes defined for the base class. They are:
+There are two types of visibility modes defined for the base class. They are:
 
-  1. Public Visibility
+1. Public Visibility
 
-  2. Private Visibility
+2. Private Visibility
 
 Notes =>
 
@@ -26,3 +26,11 @@ Notes =>
 - Private members are never inherited.
 
 - Protected members of the base class becomes Protected members of the derived class.
+
+### Table of Inheritance =>
+
+| Sl  | Members   | Public Derivation | Private Derivation | Protected Derivation |
+| --- | --------- | ----------------- | ------------------ | -------------------- |
+| 01  | Public    | Public            | Private            | Protected            |
+| 02  | Private   | Not Inherited     | Not Inherited      | Not Inherited        |
+| 03  | Protected | Protected         | Private            | Protected            |
