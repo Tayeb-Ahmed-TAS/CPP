@@ -1,6 +1,6 @@
 ## Virtual Base Class
 
-<img src="https://github.com/Tayeb-Ahmed-TAS/Images/blob/main/virtual%20base%20class.png" style="text-align:center" />
+<img src="https://github.com/Tayeb-Ahmed-TAS/Images/blob/main/virtual%20base%20class.png" />
 
 ### Example :
 
