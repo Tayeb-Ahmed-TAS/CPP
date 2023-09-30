@@ -21,6 +21,7 @@ protected:
 
 public:
   void set_marks(float m, float p) {
+    
     math = m;
     physics = p;
   }
