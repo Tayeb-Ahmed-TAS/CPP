@@ -31,7 +31,7 @@
 
         . . . . . . .
 
-        } Base 1-Constructor (arg1,arg2)
+        }
 
 ## Special Case of Virtual Base Class
 
@@ -40,3 +40,20 @@
 - If there are multiple virtual base classes, they are invoked in the order declared
 
 - Any non-virtual base class are then constructed before the derived class constructor is executed
+
+### Order of execution of constructor
+
+        Case1:
+        class B: public A{
+        // Order of execution of constructor -> first A() then B()
+        };
+
+        Case2:
+        class A: public B, public C{
+            // Order of execution of constructor -> B() then C() and A()
+        };
+
+        Case3:
+        class A: public B, virtual public C{
+            // Order of execution of constructor -> C() then B() and A()
+        };
