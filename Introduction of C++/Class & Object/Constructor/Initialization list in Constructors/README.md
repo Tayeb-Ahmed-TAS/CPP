@@ -8,7 +8,7 @@
 
 2.  In the initialization section, the data members are initialized
 
-        constructor (argument-list) : initilization-section
+        constructor (argument-list) : initialization-section
         {
 
             assignment + other code;
