@@ -5,6 +5,7 @@
 ### Syntax =>
 
 1.  A constructor is written first and then the initializations section is written
+
 2.  In the initialization section, the data members are initialized
 
         constructor (argument-list) : initilization-section
@@ -21,6 +22,7 @@
 As shown in a code snippet 1,
 
 1.  We have created a “test” class that consists of private data member “a” and “b” and parameterized constructor which takes two arguments and sets the value of data member “a” and “b” by using the initialization list. The constructor will also print the value of data member “a” and “b”.
+
 2.  In the main program object “t” is created of the “test” data type and the values (4, 6) are passed.
 
         class Test
