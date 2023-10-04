@@ -59,6 +59,6 @@ But if we use the code shown below to initialize data members the compiler will 
 
 Code Snippet 4:
 
-It also ruyn successfully.
+It also run successfully.
 
                 Test(int i, int j) : a(i), b(i + j)
