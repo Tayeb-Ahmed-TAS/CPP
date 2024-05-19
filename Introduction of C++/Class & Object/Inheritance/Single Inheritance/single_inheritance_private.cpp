@@ -46,11 +46,11 @@ void Derived::process() {
 
 void Derived::display() {
 
-  cout << "Value od Data 1 is " << getData1() << endl;
+  cout << "Value of Data 1 is " << getData1() << endl;
 
-  cout << "Value od Data 2 is " << data2 << endl;
+  cout << "Value of Data 2 is " << data2 << endl;
 
-  cout << "Value od Data 3 is " << data3 << endl;
+  cout << "Value of Data 3 is " << data3 << endl;
 }
 
 int main() {
