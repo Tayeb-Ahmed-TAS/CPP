@@ -1,4 +1,3 @@
-#include <conio.h>
 #include <iostream>
 
 using namespace std;
@@ -28,7 +27,7 @@ int main() {
 
   obj1.display(), obj2.display(), obj3.display();
 
-  getch();
-
   return 0;
 }
+
+// ? When no copy constructor is found, compiler supplies its own copy constructor
