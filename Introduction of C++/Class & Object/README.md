@@ -4,10 +4,10 @@
 
 - A constructor is a special type of member function that is called automatically when an object is created.
 
-          class  Wall {
+          class  Class_name {
                public:
                   // create a constructor
-                  Wall() {
+                  Class_name() {
                       // code
                   }
                 };
