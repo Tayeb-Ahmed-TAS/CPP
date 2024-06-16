@@ -70,7 +70,6 @@ int main() {
   cin >> c;
 
   r1 = Result(id, m, b, p, c);
-  
 
   r1.display();
 
