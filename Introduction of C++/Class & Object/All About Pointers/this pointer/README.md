@@ -35,7 +35,7 @@
     class Test {
         int a;
     public:
-        Test & setData(int a) {
+        Test &setData(int a) {
             this->a = a;
             return *this;
         }
