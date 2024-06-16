@@ -15,11 +15,12 @@ In C++, the delete keyword is used to deallocate memory that was allocated using
 ### Example
 
         #include <iostream>
+        using namespace std;
 
         int main() {
             int *pointer = new int;
             *pointer = 10;
-            std::cout << *pointer << std::endl;
+            cout << *pointer << endl;
             delete pointer;
             return 0;
         }
@@ -29,6 +30,7 @@ In the above example, we have allocated memory for an integer variable using the
 ### Example for array
 
         #include <iostream>
+        using namespace std;
 
         int main() {
             int *pointer = new int[5];
@@ -36,9 +38,9 @@ In the above example, we have allocated memory for an integer variable using the
                 pointer[i] = i;
             }
             for (int i = 0; i < 5; i++) {
-                std::cout << pointer[i] << " ";
+                cout << pointer[i] << " ";
             }
-            std::cout << std::endl;
+            cout << endl;
             delete[] pointer;
             return 0;
         }
