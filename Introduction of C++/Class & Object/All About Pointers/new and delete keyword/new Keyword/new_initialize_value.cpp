@@ -4,11 +4,7 @@ using namespace std;
 
 int main() {
 
-  int *ptr = new int;
-
-  cout << "Enter an integer => ";
-
-  cin >> *ptr;
+  float *ptr = new float(58.77);
 
   cout << "The value at address " << ptr << " is " << *ptr << endl;
 
