@@ -1,4 +1,4 @@
-// ? COnstructor in derived class in Multilevel Inheritance
+// ? Constructor in derived class in Multilevel Inheritance
 
 #include <iostream>
 
@@ -49,8 +49,6 @@ void Result::display(void) {
   cout << "Total: " << total << endl;
   cout << "Percentage: " << percentage << "%" << endl;
 }
-
-void getInput(void) {}
 
 int main() {
 
