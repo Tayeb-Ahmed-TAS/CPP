@@ -17,7 +17,7 @@ public:
 
 int main() {
 
-  int size = 5;
+  int size = 3;
 
   ShopItem *ptr = new ShopItem[size];
 
@@ -35,7 +35,7 @@ int main() {
     ptr++;
   }
 
-  cout << endl;
+  cout << endl << "Item List: " << endl << endl;
 
   for (int i = 0; i < size; i++) {
     cout << "Item " << i + 1 << endl;
@@ -47,3 +47,28 @@ int main() {
 
   return 0;
 }
+
+// Output:
+
+/*
+
+Enter ID and Price of item 1
+101
+150.69
+Enter ID and Price of item 2
+102
+250
+Enter ID and Price of item 3
+103
+675.69
+
+Item List:
+
+Item 1
+Id: 101         Price: 150.69
+Item 2
+Id: 102         Price: 250
+Item 3
+Id: 103         Price: 675.69
+
+*/
