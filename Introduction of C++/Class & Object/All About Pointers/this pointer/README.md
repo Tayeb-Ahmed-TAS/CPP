@@ -49,3 +49,22 @@
         t1.setData(4).getData();
         return 0;
     }
+
+## Example 4 (Returning Member Variable)
+
+    class Test {
+        int a;
+    public:
+        Test(int a) {
+            this->a = a;
+        }
+        int getData() {
+            return this->a;
+        }
+    };
+
+    int main() {
+        Test t1(4);
+        cout << "The value of a is: " << t1.getData() << endl;
+        return 0;
+    }
