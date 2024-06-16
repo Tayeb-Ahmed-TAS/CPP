@@ -14,7 +14,6 @@ In C++, the delete keyword is used to deallocate memory that was allocated using
 
 ### Example
 
-        ```cpp
         #include <iostream>
 
         int main() {
@@ -24,13 +23,11 @@ In C++, the delete keyword is used to deallocate memory that was allocated using
             delete pointer;
             return 0;
         }
-        ```
 
 In the above example, we have allocated memory for an integer variable using the new keyword. We have assigned a value of 10 to the variable and then printed the value. After that, we have deallocated the memory using the delete keyword.
 
 ### Example for array
 
-        ```cpp
         #include <iostream>
 
         int main() {
@@ -45,6 +42,5 @@ In the above example, we have allocated memory for an integer variable using the
             delete[] pointer;
             return 0;
         }
-        ```
 
 In the above example, we have allocated memory for an array of integers using the new keyword. We have assigned values to the array elements and then printed the values. After that, we have deallocated the memory using the delete[] keyword.
