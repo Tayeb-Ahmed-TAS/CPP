@@ -1,12 +1,17 @@
-## **delete** Operator
+# **delete** Operator
 
 - **delete** operator is used for releasing memory space.
 
-### Syntax - 1:
+## Syntax - 1
+
+```cpp
 
         delete pointer-variable;
+```
 
-### Example:
+### Example
+
+```cpp
 
         int *p = new int;
         *p = 10;
@@ -18,12 +23,18 @@
         int *p = new int(10);
 
         delete p;
+```
 
-### Syntax - 2:
+## Syntax - 2
+
+```cpp
 
         delete[size] pointer-variable;
+```
 
-### Example:
+### Example of Syntax - 2
+
+```cpp
 
         int *p = new int[5];
         p[0] = 10;
@@ -33,9 +44,13 @@
         p[4] = 50;
 
         delete[] p;
+```
 
-        or,
+Or
+
+```cpp
 
         int *p = new int[5]{10, 20, 30, 40, 50};
 
         delete[] p;
+```
