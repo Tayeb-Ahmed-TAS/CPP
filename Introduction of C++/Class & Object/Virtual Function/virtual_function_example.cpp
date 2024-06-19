@@ -52,27 +52,29 @@ int main() {
   float rating, videoLength;
   int words;
 
+  // For Video
+
   title = "C++ Tutorial";
   rating = 4.5;
   videoLength = 4.56;
 
   CWHVideo video(title, rating, videoLength);
-  //   video.display();
+
+  // For Text
 
   title = "C++ Text Tutorial";
   rating = 3.69;
   words = 1285;
 
   CWHText text(title, rating, words);
-  //   text.display();
 
   CWH *tutorials[2]; // Creating an array of pointers of CWH class;
 
   tutorials[0] = &video;
   tutorials[1] = &text;
 
-  tutorials[0]->display();
-  tutorials[1]->display();
+  tutorials[0]->display(); // Call to display function of CWHVideo class
+  tutorials[1]->display(); // Call to display function of CWHText class
 
   return 0;
 }
