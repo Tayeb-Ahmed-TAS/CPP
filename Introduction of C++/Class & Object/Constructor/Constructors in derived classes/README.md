@@ -1,4 +1,4 @@
-## Constructors in Derived Classes
+# Constructors in Derived Classes
 
 - We can use constructors in derived classes in C++
 
@@ -26,12 +26,15 @@
 
 ## Syntax
 
+```cpp
+
         Derived-Constructor (arg1, arg2, arg3….): Base 1-Constructor (arg1,arg2), Base 2-Constructor(arg3,arg4)
         {
 
         . . . . . . .
 
         }
+        ```
 
 ## Special Case of Virtual Base Class
 
@@ -42,6 +45,8 @@
 - Any non-virtual base class are then constructed before the derived class constructor is executed
 
 ### Order of execution of constructor
+
+```cpp
 
         Case1:
         class B: public A{
@@ -57,3 +62,4 @@
         class A: public B, virtual public C{
             // Order of execution of constructor -> C() then B() and A()
         };
+        ```
