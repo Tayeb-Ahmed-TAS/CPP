@@ -18,7 +18,11 @@
 
         delete p;
 
-        or,
+```
+
+### Or
+
+```cpp
 
         int *p = new int(10);
 
@@ -46,7 +50,7 @@
         delete[] p;
 ```
 
-Or
+### Or
 
 ```cpp
 
