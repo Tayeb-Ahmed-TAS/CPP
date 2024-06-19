@@ -1,9 +1,13 @@
-## Inline Function
+# Inline Function
 
-### Syntax:
+## Syntax
+
+```cpp
 
         inline return_type function_name(argument_list){
 
             // Function Body;
 
         }
+
+```
