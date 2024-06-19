@@ -6,6 +6,8 @@
 
 ## Example 1 (Member Function)
 
+```cpp
+
     class Test {
         int a;
     public:
@@ -16,8 +18,11 @@
             cout << "The value of a is: " << a << endl;
         }
     };
+    ```
 
 ## Example 2 (Constructor)
+
+```cpp
 
     class Test {
         int a;
@@ -29,8 +34,11 @@
             cout << "The value of a is: " << this->a << endl;
         }
     };
+    ```
 
 ## Example 3 (Returning Object)
+
+```cpp
 
     class Test {
         int a;
@@ -49,8 +57,11 @@
         t1.setData(4).getData();
         return 0;
     }
+    ```
 
 ## Example 4 (Returning Member Variable)
+
+```cpp
 
     class Test {
         int a;
@@ -68,3 +79,4 @@
         cout << "The value of a is: " << t1.getData() << endl;
         return 0;
     }
+    ```
