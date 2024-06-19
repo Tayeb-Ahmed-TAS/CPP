@@ -1,12 +1,20 @@
-## Friend Function
+# Friend Function
 
-### Syntax =>
+## Syntax =>
+
+```cpp
 
         friend return_type function_name (arguments);    // for a global function
 
+```
+
 or,
 
+```cpp
+
         friend return_type class_name::function_name (arguments);    // for a member function of another class
+
+```
 
 ### Properties of Friend function
 

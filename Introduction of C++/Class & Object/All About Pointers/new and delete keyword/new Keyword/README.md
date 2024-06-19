@@ -8,12 +8,21 @@ In C++, the new keyword is used to allocate memory at runtime. It is used to all
 
 ### Syntax
 
+```cpp
+
         data_type *pointer_name = new data_type;
+```
 
 ### Syntax for initializing the value of the variable
 
+```cpp
+
         data_type *pointer_name = new data_type(value);
+```
 
 ### Syntax for array
 
+```cpp
+
         data_type *pointer_name = new data_type[size];
+```

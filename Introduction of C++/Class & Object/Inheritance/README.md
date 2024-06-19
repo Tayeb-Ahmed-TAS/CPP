@@ -1,6 +1,6 @@
-## Inheritance
+# Inheritance
 
-### Derived class syntax
+## Derived class syntax
 
             class derived-class: visibility-mode base-class
             {
