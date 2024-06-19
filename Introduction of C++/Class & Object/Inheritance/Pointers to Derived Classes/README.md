@@ -2,6 +2,8 @@
 
 In C++, a pointer of a base class can point to an object of a derived class. When a base class pointer points to a derived class object, we can access only the members of the base class using that pointer. To access the members of the derived class, we need to typecast the pointer to the derived class.
 
+## Example
+
 ```cpp
 #include <iostream>
 using namespace std;

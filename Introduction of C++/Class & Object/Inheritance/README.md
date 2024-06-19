@@ -2,10 +2,13 @@
 
 ## Derived class syntax
 
+```cpp
+
             class derived-class: visibility-mode base-class
             {
                 // body of derived class
             };
+```
 
 ### Visibility Mode
 
