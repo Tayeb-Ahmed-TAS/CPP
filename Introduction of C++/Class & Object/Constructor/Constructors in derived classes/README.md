@@ -34,7 +34,7 @@
         . . . . . . .
 
         }
-        ```
+```
 
 ## Special Case of Virtual Base Class
 
@@ -62,4 +62,4 @@
         class A: public B, virtual public C{
             // Order of execution of constructor -> C() then B() and A()
         };
-        ```
+```
