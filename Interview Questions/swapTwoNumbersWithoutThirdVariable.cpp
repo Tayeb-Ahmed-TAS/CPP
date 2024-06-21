@@ -1,9 +1,9 @@
 // Swap Two numbers of two variables without using the third variable
 // Logic =>
 //     a = 3, b = 5
-//     a = a - b
-//     b = a + b
-//     a = b - a
+//     a = a - b = 3 - 5 = -2
+//     b = a + b = -2 + 5 = 3
+//     a = b - a = 3 - (-2) = 5
 
 #include <iostream>
 
