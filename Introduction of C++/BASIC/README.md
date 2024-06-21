@@ -1,6 +1,6 @@
-## Basic of C++
+# Basic of C++
 
-### Program Structure :
+## Program Structure
 
 - The `#include` statement is used to add a header file to the program.
 
@@ -12,7 +12,7 @@
 
 - The `endl` command is used to add a new line to the output.
 
-### Variables :
+### Variables
 
 - Every program works with values.
 
@@ -24,7 +24,7 @@
 
 - A variable can change its value during the program, by being assigned to a new value.
 
-### Data Types :
+### Data Types
 
 - C++ supports many different types for your variables, based on their value.
 
@@ -34,17 +34,19 @@
 
 - To specify that the value is a `float`, we need to use the letter **f** after it. ex:
 
-        float length = 5.31f;
+```cpp
+    float length = 5.31f;
+```
 
-  - This tells C++ to use the value as a `float`, instead of `double`.
+- This tells C++ to use the value as a `float`, instead of `double`.
 
-- The `char` type is used to store a single character. It is similar to declaring a `string`, but uses single quotes ('') for the value.
+- The `char` type is used to store a single character. It is similar to declaring a `string`, but uses single quotes `''` for the value.
 
 - The `bool` type can only hold values: either `true` or `false`. It is used when working with conditions.
 
   - The boolean value `true` corresponds to **1**, while the value `false` corresponds to **0**.
 
-### Float vs Double :
+### Float vs Double
 
 - By default, decimal values are of type `double`.
 
