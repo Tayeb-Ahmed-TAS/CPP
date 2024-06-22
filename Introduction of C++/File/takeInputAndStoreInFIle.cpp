@@ -14,7 +14,7 @@ int main() {
 
   cout << "Enter your name => ";
 
-  getline(cin, name);
+  getline(cin, name); // getline() is used to take input with spaces
 
   cout << "Enter your Id => ";
 
