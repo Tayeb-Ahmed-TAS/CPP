@@ -107,7 +107,7 @@ int main(){
 
 ```cpp
 
-template <class T1, class T2>
+template <class T1, class T2, ...>
 
 class className {
     T1 var1; // T1 can be any data type (int, float, char, etc.)
