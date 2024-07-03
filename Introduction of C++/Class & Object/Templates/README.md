@@ -102,3 +102,41 @@ int main(){
 }
 
 ```
+
+### Templates with multiple parameters
+
+```cpp
+
+template <class T1, class T2>
+
+class className {
+    T1 var1; // T1 can be any data type (int, float, char, etc.)
+    T2 var2; // T2 can be any data type (int, float, char, etc.)
+
+    public:
+        className(T1 a, T2 b){
+            var1 = a;
+            var2 = b;
+        }
+
+        void display(){
+            cout << var1 << " " << var2 << endl;
+        }
+};
+
+int main(){
+    className <int, float> obj1(5, 5.5);       // obj1 is an object of className with data type int and float
+    className <float, char> obj2(5.5, 'A');    // obj2 is an object of className with data type float and char
+    className <char, int> obj3('A', 5);        // obj3 is an object of className with data type char and int
+
+    obj1.display(); // Output: 5 5.5
+    obj2.display(); // Output: 5.5 A
+    obj3.display(); // Output: A 5
+    ...
+    ...
+    ...
+
+    return 0;
+}
+
+```
