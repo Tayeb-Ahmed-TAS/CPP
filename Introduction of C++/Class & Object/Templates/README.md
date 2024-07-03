@@ -103,7 +103,7 @@ int main(){
 
 ```
 
-### Templates with multiple parameters
+## Templates with multiple parameters
 
 ```cpp
 
