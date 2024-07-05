@@ -140,3 +140,45 @@ int main(){
 }
 
 ```
+
+## Templates with default parameters
+
+- Default parameters are used when no argument is passed to the template.
+- Default parameters are specified in the template declaration.
+- If we use default parameters, we don't need to pass the data type while creating an object.
+
+```cpp
+
+template <class T1 = int, class T2 = float>
+
+class className {
+    T1 var1;
+    T2 var2;
+
+    public:
+        className(T1 a, T2 b){
+            var1 = a;
+            var2 = b;
+        }
+
+        void display(){
+            cout << var1 << " " << var2 << endl;
+        }
+};
+
+int main(){
+    className <> obj1(5, 5.5);
+    className <float,char> obj2(5.5, 'A');
+    className <> obj3('A', 5);
+
+    obj1.display(); // Output: 5 5.5
+    obj2.display(); // Output: 5.5 A
+    obj3.display(); // Output: 65 5
+    ...
+    ...
+    ...
+
+    return 0;
+}
+
+```
