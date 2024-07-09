@@ -1,0 +1,28 @@
+# Standard Template Library
+
+- STL is used for Data Structures and Algorithms (DSA).
+- It is a library of Generic Classes and Functions.
+- It is a generalized library and so, its components are parameterized.
+
+## Why use STL?
+
+- Reuse well tested components.
+- Time saving.
+- Reliable.
+- Efficient.
+- STL is used because it's a good idea not to **Reinvent** the wheel.
+
+## Components of STL
+
+1. **Algorithms**: Algorithms are the set of procedures that are used to perform operations such as searching, sorting, counting, manipulating on the contents of containers. Ex: `Sorting`, `Search`, `Mergeing`, `Reversing`, etc.
+    - They are independent of the containers.
+    - They can be used with different containers.
+    - They are implemented using templates.
+2. **Containers**: Containers are objects that stores data. The data can be of any type. The container can be a collection of homogeneous or heterogeneous elements. Ex: `vector`, `list`, `deque`, `set`, `map`, etc.
+    - They use templates to store any type of data.
+3. **Functions**: Functions are the general functions that can be used with the containers.
+4. **Iterators**: Iterators are objects that points to an element in a container. They are used to iterate through the elements of the container. Ex: `begin()`, `end()`, `rbegin()`, `rend()`, etc.
+    - Handled just like pointers.
+    - Connects algorithms with the containers.
+
+![STL Example](https://github.com/Tayeb-Ahmed-TAS/Images/blob/9ae5d928b40d66c52edee527935c756a3e2e7467/STL%20EXAMPLE.png)
