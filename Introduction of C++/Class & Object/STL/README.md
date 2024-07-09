@@ -18,11 +18,16 @@
     - They are independent of the containers.
     - They can be used with different containers.
     - They are implemented using templates.
+
 2. **Containers**: Containers are objects that stores data. The data can be of any type. The container can be a collection of homogeneous or heterogeneous elements. Ex: `vector`, `list`, `deque`, `set`, `map`, etc.
     - They use templates to store any type of data.
-3. **Functions**: Functions are the general functions that can be used with the containers.
-4. **Iterators**: Iterators are objects that points to an element in a container. They are used to iterate through the elements of the container. Ex: `begin()`, `end()`, `rbegin()`, `rend()`, etc.
+
+3. **Iterators**: Iterators are objects that points to an element in a container. They are used to iterate through the elements of the container. Ex: `begin()`, `end()`, `rbegin()`, `rend()`, etc.
     - Handled just like pointers.
     - Connects algorithms with the containers.
 
+### Illustration of how these 3 components work together
+
 ![STL Example](https://github.com/Tayeb-Ahmed-TAS/Images/blob/9ae5d928b40d66c52edee527935c756a3e2e7467/STL%20EXAMPLE.png)
+
+`Suppose we have a container of integers, and we want to sort them in ascending order. We will have pointers which will help moving elements to places by pointing to it, following a well-constructed algorithm. So, here a container gets sorted by following an algorithm by the use of pointers. This is how they work in accordance with each other.`
