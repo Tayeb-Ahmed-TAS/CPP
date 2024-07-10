@@ -31,3 +31,9 @@
 ![STL Example](https://github.com/Tayeb-Ahmed-TAS/Images/blob/9ae5d928b40d66c52edee527935c756a3e2e7467/STL%20EXAMPLE.png)
 
 `Suppose we have a container of integers, and we want to sort them in ascending order. We will have pointers which will help moving elements to places by pointing to it, following a well-constructed algorithm. So, here a container gets sorted by following an algorithm by the use of pointers. This is how they work in accordance with each other.`
+
+![STL Example 2](https://github.com/Tayeb-Ahmed-TAS/Images/blob/ca8e2112c9009b3e89bf3163d1c37358dbe63216/stl_diagram_2.png)
+
+## Containers
+
+### Types of Containers
