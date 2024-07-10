@@ -40,12 +40,18 @@
 
 1. **Sequence Containers**: A sequence container stores that data in a linear fashion. Refer to the illustration below to understand what storing something in a linear fashion means. Ex: `vector`, `list`, `dequeue`, `arrays`, etc.
     - Random access
-
 ![Sequence Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/sequence.png)
+
 2. **Associative Containers**: These are the containers that store elements in a sorted order.An associative container is designed in such a way that enhances the accessing of some element in that container. It is very much used when the user wants to fastly reach some element. Ex: `set`, `map`, `multiset`, `multimap`, etc. Some of these containers are, Set, Multiset, Map, Multimap etc.  They store their data in a tree-like structure.
     - Direct access
-
 ![Associative Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/associative.png)
-3. **Derived Containers**: These are the containers that are derived from the sequence containers.They often provide you with some better methods to deal with your data. They deal with real life modelling. Ex: `stack`, `queue`, `priority_queue`, etc. The following illustration give you the idea of how a stack works.
 
+3. **Derived Containers**: These are the containers that are derived from the sequence containers.They often provide you with some better methods to deal with your data. They deal with real life modelling. Ex: `stack`, `queue`, `priority_queue`, etc. The following illustration give you the idea of how a stack works.
+    - Restricted access
+    - Derived from sequence containers
+    - Real life modelling
+    - Stack, Queue, Priority Queue
+    - Stack: Last In First Out (LIFO)
+    - Queue: First In First Out (FIFO)
+    - Priority Queue: Elements are ordered by priority
 ![Derived Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/derived.png)
