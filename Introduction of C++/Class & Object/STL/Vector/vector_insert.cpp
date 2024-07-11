@@ -54,3 +54,26 @@ int main() {
 
   return 0;
 }
+
+// Output:
+/*
+
+Enter the size of your vector : 4
+Enter the element 1 : 1
+Enter the element 2 : 2
+Enter the element 3 : 3
+Enter the element 4 : 4
+
+The elements of the vector are :
+1 2 3 4
+
+The elements of the vector are :
+10 1 2 3 4
+
+The elements of the vector are :
+10 1 69 2 3 4
+
+The elements of the vector are :
+10 1 50 50 50 50 50 69 2 3 4
+
+*/
