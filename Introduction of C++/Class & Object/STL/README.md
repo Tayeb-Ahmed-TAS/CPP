@@ -66,4 +66,20 @@ The following illustration give you the idea of how a stack works.
 
 ### Sequence Containers
 
-1. 
+1. ***Vector :***
+    - Random access is **Fast**.
+    - Insertion and deletion in middle is **Relatively Slow**.
+    - Insertion and deletion at the end is **Fast**.
+
+2. ***List :***
+    - Random access is **Slow**.
+    - Insertion and deletion in middle is **Fast**.
+    - Insertion and deletion at the end is also **Fast**.
+
+### Associative Containers
+
+- All the operations are **Fast** except random access.
+
+### Derived Containers
+
+- Deprnds on the type of **Data Structure** you want to implement.
