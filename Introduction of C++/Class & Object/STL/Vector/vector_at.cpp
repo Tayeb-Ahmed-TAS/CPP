@@ -7,14 +7,14 @@ void display(vector<int> &vec) {
   cout << endl << "The elements of the vector are : " << endl;
 
   for (int i = 0; i < vec.size(); i++) {
-    cout << vec[i] << " ";
+    cout << vec.at(i) << " ";
   }
 }
 
 int main() {
 
   int element, size;
-  vector<int> vec1; // Creating a zero length vector
+  vector<int> vec1;
 
   cout << "Enter the size of your vector : ";
   cin >> size;
@@ -30,3 +30,16 @@ int main() {
 
   return 0;
 }
+
+// Output:
+/*
+
+Enter the size of your vector : 3
+Enter the element 1 : 1
+Enter the element 2 : 2
+Enter the element 3 : 5
+
+The elements of the vector are :
+1 2 5
+
+*/
