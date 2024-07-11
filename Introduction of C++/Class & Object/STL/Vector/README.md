@@ -13,3 +13,11 @@ vector<data_type> vector_name;
 ```
 
 [**Vector Reference**](https://cplusplus.com/reference/vector/vector/)
+
+## Iterators
+
+```cpp
+vector<data_type>::iterator it_name;
+```
+
+![alt text](image.png)
