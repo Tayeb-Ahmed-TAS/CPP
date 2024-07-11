@@ -38,8 +38,10 @@
 
 ### Types of Containers
 
-1. **Sequence Containers**: A sequence container stores that data in a linear fashion. Refer to the illustration below to understand what storing something in a linear fashion means. Ex: `vector`, `list`, `dequeue`, `arrays`, etc.
+1. **Sequence Containers**: A sequence container stores that data in a linear fashion. Ex: `vector`, `list`, `dequeue`, `arrays`, etc.
     - Random access
+
+Refer to the illustration below to understand what storing something in a linear fashion means.
 
 ![Sequence Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/sequence.png)
 
@@ -48,13 +50,20 @@
 
 ![Associative Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/associative.png)
 
-3. **Derived Containers**: These are the containers that are derived from the sequence containers.They often provide you with some better methods to deal with your data. They deal with real life modelling. Ex: `stack`, `queue`, `priority_queue`, etc. The following illustration give you the idea of how a stack works.
+3. **Derived Containers**: These are the containers that are derived from the sequence containers.They often provide you with some better methods to deal with your data. They deal with real life modelling. Ex: `stack`, `queue`, `priority_queue`, etc.
     - Restricted access
     - Derived from sequence containers
     - Real life modelling
-    - Stack, Queue, Priority Queue
     - Stack: Last In First Out (LIFO)
     - Queue: First In First Out (FIFO)
     - Priority Queue: Elements are ordered by priority
 
+The following illustration give you the idea of how a stack works.
+
 ![Derived Containers](https://github.com/Tayeb-Ahmed-TAS/Images/blob/c71c8b5241affb39b9524078d79e88a5075a7bd1/derived.png)
+
+## When to use which container?
+
+### Sequence Containers
+
+1. 
