@@ -1,6 +1,5 @@
 #include <algorithm> // for sort() function
 #include <iostream>
-#include <list>
 #include <vector>
 
 using namespace std;
