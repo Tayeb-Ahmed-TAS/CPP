@@ -6,6 +6,8 @@ A map in C++ STL is an associative container which stores key value pairs. To el
 
 ![Map Illustration](https://github.com/Tayeb-Ahmed-TAS/Images/blob/b167183e26902ce042f77a5ff2708a3200fb7928/map.png)
 
+- The keys in a map are unique. That means, a key can only be present once in a map. If you try to insert a key that already exists in the map, the value corresponding to that key will be updated with the new value.
+
 ## Header File
 
 ```cpp
@@ -96,6 +98,12 @@ map_name.insert({pair_1, pair_2... .. pair_n});
 // map_name.insert({{key1, value1}, {key2, value2}, {key3, value3}});
 
 map_name.insert({{"Shorna", 9}, {"Taskin", 26}, {"Tabassum", 61}});
+```
+
+## Syntax for updating a value in a map
+
+```cpp
+map_name[key] = new_value;
 ```
 
 [Reference](https://cplusplus.com/reference/map/map/)
