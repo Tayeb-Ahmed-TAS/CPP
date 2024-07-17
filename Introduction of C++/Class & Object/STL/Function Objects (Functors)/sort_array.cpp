@@ -17,7 +17,7 @@ int main() {
 
   int arr[] = {5, 2, 8, 1, 9, 3, 7, 4, 6, 10};
 
-  int n = sizeof(arr) / sizeof(arr[0]); // Size of the array
+  int n = sizeof(arr) / sizeof(int); // Size of the array
 
   sort(arr, arr + n); // Ascending order and arr + n is the end pointer
 
