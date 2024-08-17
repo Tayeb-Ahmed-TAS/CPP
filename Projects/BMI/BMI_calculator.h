@@ -51,13 +51,15 @@ void BMI::bmi_ind(float bmi) {
 }
 
 void BMI::measurement(void) {
-  cout << "1. Kilograms and meters\n2. Pounds and inches" << endl;
-  cout << "1 or 2 ? ";
+  cout << "Enter" << endl
+       << "(a). Kilograms and meters" << endl
+       << "(b). Pounds and inches" << endl;
+  cout << "a or b ? ";
 
-  int measure;
+  char measure;
   cin >> measure;
 
-  (measure == 1) ? kg_m() : (measure == 2) ? lb_inch() : try_again();
+  (measure == 'a') ? kg_m() : (measure == 'b') ? lb_inch() : try_again();
 }
 
 void BMI::try_again(void) {
